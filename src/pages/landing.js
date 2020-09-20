@@ -5,8 +5,8 @@ import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
 import pic08 from '../assets/images/heart-rate.jpg'
-import pic09 from '../assets/images/learn.gif'
-import pic10 from '../assets/images/taiji.png'
+import pic09 from '../assets/images/learn.jpg'
+import pic10 from '../assets/images/joys.jpg'
 
 
 import { shallowCompare } from 'shallow-compare';
@@ -20,7 +20,7 @@ const Landing = props => (
 
     <BannerLanding />
 
-    <div id="main">
+    <div id="main" >
       <section id="one">
         <div className="inner">
           <header className="major">
@@ -42,18 +42,17 @@ const Landing = props => (
       </section>
       <section id="two" className="spotlights">
         <section>
-          <Link to="/generic" className="image">
+          <span to="/generic" className="image">
             <img src={pic08} alt="Health graphic" />
-          </Link>
+          </span>
           <div className="content">
             <div className="inner">
               <header className="major">
-                <h3>Health is wealth</h3>
+                <h3>Recent engineering efforts</h3>
               </header>
               <p>
-                I like to focus my engineering efforts in the fields of medicine
-                and social good. Time on the planet is short, it seems to me a
-                good idea to make the stay as pleasant for everyone as possible.</p>
+                I've focused my engineering efforts in the fields of medicine
+                and social good. </p>
                 <p>
                 I was the principal mobile engineer on a mindfulness mobile apps
                 at <a href="http://whil.com">whil.com</a>, and  
@@ -75,9 +74,9 @@ const Landing = props => (
           </div>
         </section>
         <section>
-          <Link to="/generic" className="image">
+          <span to="/generic" className="image">
             <img src={pic09} alt="" />
-          </Link>
+          </span>
           <div className="content">
             <div className="inner">
               <header className="major">
@@ -98,7 +97,7 @@ const Landing = props => (
 
               {/* <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button">
+                  <span to="/generic" className="button">
                     Learn more
                   </Link>
                 </li>
@@ -107,9 +106,9 @@ const Landing = props => (
           </div>
         </section>
         <section>
-          <Link to="/generic" className="image">
+          <span to="/generic" className="image">
             <img src={pic10} alt="" />
-          </Link>
+          </span>
           <div className="content">
             <div className="inner">
               <header className="major">
@@ -117,14 +116,14 @@ const Landing = props => (
               </header>
               <p>
                 Tech is fun, but life is much larger than that.
-                I'm passionate about music and I play drums.  I also practice Tai Chi
-                and have taught for several years.  
+                I'm passionate about music and I play drums.  
+                I also practice Tai Chi.  
               </p>
               <ul className="actions">
                 <li>
-                  <Link to="/generic" className="button">
+                  <span to="/generic" className="button">
                     Learn more
-                  </Link>
+                  </span>
                 </li>
               </ul>
             </div>

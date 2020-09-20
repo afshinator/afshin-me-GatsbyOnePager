@@ -4,12 +4,12 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import Banner from '../components/Banner'
 
-import pic01 from '../assets/images/buddha1.jpg'
+import pic01 from '../assets/images/me2.png'
 import pic02 from '../assets/images/02-screen.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
-import pic05 from '../assets/images/pic05.jpg'
-import pic06 from '../assets/images/pic06.jpg'
+import pic03 from '../assets/images/mobile1.jpg'
+import pic04 from '../assets/images/kybd.jpg'
+import pic05 from '../assets/images/yinYang.jpg'
+import pic06 from '../assets/images/drums.jpg'
 
 class HomeIndex extends React.Component {
   render() {
@@ -30,7 +30,6 @@ class HomeIndex extends React.Component {
             <article style={{ backgroundImage: `url(${pic01})` }}>
               <header className="major">
                 <h3>About Me</h3>
-                
               </header>
               <Link to="/landing" className="link primary"></Link>
             </article>
@@ -73,24 +72,26 @@ class HomeIndex extends React.Component {
           <section id="two">
             <div className="inner">
               <header className="major">
-                <h2>Massa libero</h2>
+                <h2>September 2020</h2>
               </header>
               <p>
-                Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-                libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-                Pellentesque condimentum sem. In efficitur ligula tate urna.
-                Maecenas laoreet massa vel lacinia pellentesque lorem ipsum
-                dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et
-                sagittis libero. Mauris aliquet magna magna sed nunc rhoncus
-                amet pharetra et feugiat tempus.
+                Its been some time since I had my own site up. With the coming
+                of the Covid, I found time to dive into{' '}
+                <strong>Gatsby-JS</strong>{' '}
+                and decided to pull together a blog and much more. This isn't
+                it!
               </p>
-              <ul className="actions">
+              <p>
+                This is just a little interim site while I get that up in
+                October.
+              </p>
+              {/* <ul className="actions">
                 <li>
                   <Link to="/landing" className="button next">
                     Get Started
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </section>
         </div>

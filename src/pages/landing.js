@@ -119,13 +119,13 @@ const Landing = props => (
                 I'm passionate about music and I play drums.  
                 I also practice Tai Chi.  
               </p>
-              <ul className="actions">
+              {/* <ul className="actions">
                 <li>
                   <span to="/generic" className="button">
                     Learn more
                   </span>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </section>

@@ -6,7 +6,7 @@ const BannerLanding = props => (
     <div className="inner">
     <img
         src={picme}
-        alt="Picture of Afshin"
+        alt="Afshin Mokhtari"
         style={{
           maxWidth: '115px',
           float: 'right',

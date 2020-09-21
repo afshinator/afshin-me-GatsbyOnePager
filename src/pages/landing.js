@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
@@ -8,8 +8,7 @@ import pic08 from '../assets/images/heart-rate.jpg'
 import pic09 from '../assets/images/learn.jpg'
 import pic10 from '../assets/images/joys.jpg'
 
-
-import { shallowCompare } from 'shallow-compare';
+// import { shallowCompare } from 'shallow-compare';
 
 const Landing = props => (
   <Layout>

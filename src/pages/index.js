@@ -31,42 +31,44 @@ class HomeIndex extends React.Component {
               <header className="major">
                 <h3>About Me</h3>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/landing" className="link primary"
+              aria-label="to about page"
+              ></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic02})` }}>
               <header className="major">
                 <h3>Mostly Front-End</h3>
                 <p>Browser Technologies and more</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/landing" className="link primary" aria-label="to about page"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic03})` }}>
               <header className="major">
                 <h3>Mobile Development</h3>
                 <p>With React-Native</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/landing" className="link primary" aria-label="to about page"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic04})` }}>
               <header className="major">
                 <h3>Computer Science</h3>
                 <p>And other tech</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/landing" className="link primary" aria-label="to about page"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic05})` }}>
               <header className="major">
                 <h3>Health & Natural Medicine</h3>
                 <p>Acupuncture, Herbs, QiGong, TaiChi</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/landing" className="link primary" aria-label="to about page"></Link>
             </article>
             <article style={{ backgroundImage: `url(${pic06})` }}>
               <header className="major">
                 <h3>Drumming</h3>
                 <p>The hobby of Shamans</p>
               </header>
-              <Link to="/landing" className="link primary"></Link>
+              <Link to="/landing" className="link primary" aria-label="to about page"></Link>
             </article>
           </section>
           <section id="two">
